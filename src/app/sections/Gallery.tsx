@@ -172,6 +172,11 @@ export default function Gallery() {
       type: "image"
     },
     {
+      src: "/angle.png",
+      alt: "Angle view of 1965 Porsche 356C",
+      type: "image"
+    },
+    {
       src: "/Engine.png",
       alt: "Engine bay of 1965 Porsche 356C showing the replaced 1600cc engine",
       type: "image"
