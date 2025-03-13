@@ -92,7 +92,7 @@ export default function Contact() {
 
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             <div className="md:col-span-3">
-              <form onSubmit={handleSubmit} className="space-y-6 bg-white/5 backdrop-blur-sm p-8 rounded-lg border border-white/10">
+              <form onSubmit={handleSubmit} className="space-y-6 bg-white/5 backdrop-blur-sm p-8 rounded-lg border border-white/10 h-full">
                 <h3 className="text-2xl font-playfair font-bold text-white mb-6">Request Information</h3>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -195,10 +195,10 @@ export default function Contact() {
             </div>
 
             <div className="md:col-span-2">
-              <div className="bg-white/5 backdrop-blur-sm p-8 rounded-lg border border-white/10 h-full">
+              <div className="bg-white/5 backdrop-blur-sm p-8 rounded-lg border border-white/10 h-full flex flex-col">
                 <h3 className="text-2xl font-playfair font-bold text-white mb-6">Acquisition Process</h3>
                 
-                <div className="space-y-6">
+                <div className="space-y-6 flex-grow">
                   <div className="flex items-start">
                     <div className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
                       <span className="text-white text-sm">01</span>
@@ -238,6 +238,12 @@ export default function Contact() {
                       <p className="text-gray-400 text-sm">We facilitate a secure, transparent transaction process with all necessary documentation.</p>
                     </div>
                   </div>
+                </div>
+                
+                <div className="mt-auto pt-6">
+                  <p className="text-gray-400 text-sm italic">
+                    Our acquisition specialists will guide you through each step of the process to ensure a smooth experience.
+                  </p>
                 </div>
               </div>
             </div>

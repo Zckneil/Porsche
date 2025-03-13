@@ -82,16 +82,6 @@ export default function ValueProposition() {
             </div>
           ))}
         </div>
-        
-        <div className="mt-16 text-center">
-          <button 
-            className="premium-button pulse-glow"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-          >
-            <span></span>
-            Request Investment Details
-          </button>
-        </div>
       </div>
     </section>
   );
