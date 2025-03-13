@@ -53,10 +53,10 @@ export default function Hero() {
             embodying the perfect blend of elegance and performance.
           </p>
           <button 
-            className="vintage-button bg-transparent border-white text-white 
-                     hover:bg-white hover:text-black"
+            className="premium-button pulse-glow"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
+            <span></span>
             Inquire Now
           </button>
         </div>
