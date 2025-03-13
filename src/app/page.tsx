@@ -8,6 +8,8 @@ const Hero = dynamic(() => import('./sections/Hero'), { ssr: true });
 const Gallery = dynamic(() => import('./sections/Gallery'), { ssr: true });
 const Specifications = dynamic(() => import('./sections/Specifications'), { ssr: true });
 const About = dynamic(() => import('./sections/About'), { ssr: true });
+const ValueProposition = dynamic(() => import('./sections/ValueProposition'), { ssr: true });
+const Testimonials = dynamic(() => import('./sections/Testimonials'), { ssr: true });
 const Contact = dynamic(() => import('./sections/Contact'), { ssr: true });
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <Gallery />
       <Specifications />
       <About />
+      <ValueProposition />
+      <Testimonials />
       <Contact />
       {/* Additional sections will be added here */}
     </main>
