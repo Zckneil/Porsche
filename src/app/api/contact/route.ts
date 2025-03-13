@@ -18,7 +18,7 @@ export async function POST(request: Request) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Porsche 356C <no-reply@resend.dev>',
+      from: 'Porsche 356C <onboarding@resend.dev>',
       to: process.env.CONTACT_EMAIL as string, // The email address where you want to receive inquiries
       replyTo: email,
       subject: `New Inquiry from ${name} about Porsche 356C`,
