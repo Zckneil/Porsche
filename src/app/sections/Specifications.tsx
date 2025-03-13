@@ -131,8 +131,8 @@ export default function Specifications() {
               <div className="space-y-4">
                 {category.specs.map((spec, specIndex) => (
                   <div key={specIndex} className="flex justify-between items-center border-b border-gray-100 pb-2">
-                    <span className="text-gray-600 text-sm">{spec.label}</span>
-                    <span className="font-medium text-gray-900">{spec.value}</span>
+                    <span className="text-gray-600 text-sm w-32 flex-shrink-0">{spec.label}</span>
+                    <span className="font-medium text-gray-900 text-right">{spec.value}</span>
                   </div>
                 ))}
               </div>
@@ -152,8 +152,8 @@ export default function Specifications() {
             <div className="space-y-4">
               {specifications[activeTab].specs.map((spec, specIndex) => (
                 <div key={specIndex} className="flex justify-between items-center border-b border-gray-100 pb-2">
-                  <span className="text-gray-600 text-sm">{spec.label}</span>
-                  <span className="font-medium text-gray-900">{spec.value}</span>
+                  <span className="text-gray-600 text-sm w-32 flex-shrink-0">{spec.label}</span>
+                  <span className="font-medium text-gray-900 text-right">{spec.value}</span>
                 </div>
               ))}
             </div>
