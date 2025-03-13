@@ -54,10 +54,10 @@ export default function Hero() {
           </p>
           <button 
             className="premium-button pulse-glow"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <span></span>
-            Inquire Now
+            See Below
           </button>
         </div>
       </div>

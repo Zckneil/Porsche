@@ -163,8 +163,7 @@ export default function Specifications() {
         {/* Certificate of Authenticity note */}
         <div className="mt-12 max-w-2xl mx-auto text-center">
           <p className="text-gray-600 italic">
-            All specifications verified by Porsche's Certificate of Authenticity. 
-            This vehicle has been meticulously maintained to preserve its original specifications.
+            All specifications verified by Porsche's Certificate of Authenticity.
           </p>
         </div>
       </div>
