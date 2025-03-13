@@ -13,8 +13,8 @@ const specifications = [
     ),
     specs: [
       { label: 'Engine Type', value: 'Air-cooled Flat 4' },
-      { label: 'Displacement', value: '1,582 cc' },
-      { label: 'Power Output', value: '75 hp @ 5,200 rpm' },
+      { label: 'Displacement', value: '1,700 cc' },
+      { label: 'Power Output', value: '90 hp @ 5,200 rpm' },
       { label: 'Torque', value: '89 lb-ft @ 3,800 rpm' },
       { label: '0-60 mph', value: '13.5 seconds' },
       { label: 'Top Speed', value: '109 mph' }

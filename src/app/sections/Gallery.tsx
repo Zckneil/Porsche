@@ -178,7 +178,7 @@ export default function Gallery() {
     },
     {
       src: "/Engine.png",
-      alt: "Engine bay of 1965 Porsche 356C showing the replaced 1600cc engine",
+      alt: "Engine bay of 1965 Porsche 356C showing the 1700cc engine",
       type: "image"
     },
     {
